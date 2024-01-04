@@ -8,11 +8,11 @@ export default class ClassRoom {
   }
 
   set maxStudentsSize(newSize) {
-    if (typeof newSize === "number" && newSize > 0) {
+    if (typeof newSize === 'number' && newSize > 0) {
       this._maxStudentsSize = newSize;
     } else {
       console.error(
-        "Invalid input. Please provide a positive number for maxStudentsSize."
+        'Invalid input. Please provide a positive number for maxStudentsSize.',
       );
     }
   }
